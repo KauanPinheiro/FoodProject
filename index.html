@@ -9,12 +9,17 @@
 <!-- Importanto o jquery --> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+    <!-- Animações -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
     <title>Project Food</title>
 <!-- Importanto os arquivos do css -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/testimonails.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 </head>
 <body>
@@ -222,7 +227,86 @@
                 </div>
             </section>
 
+            <section id="testimonials">
+                <img src="img/chef.png" alt="imagem do chafe" id="testimonials_chefe"> 
+
+                <div id="testimonials_content">
+                    <h2 class="section-title">Depoimento</h2>
+                    <h3 class="section-subtitle">O quê os clientes falam sobre nós</h3>
+
+                        <div id="feedbacks">
+                            <div class="feedback">
+                                <img src="img/avatar.png" class="feedback-avatar" alt="">
+
+                                    <div class="feedback-content">
+                                        <p>
+                                            Fulana de tals
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </span>
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quam.
+                                            Odit molestiae illum dolor architecto, asperiores quasi, magnam molestias nam, 
+                                            consequatur expedita adipisci labore dignissimos error corrupti tenetur alias odio.
+                                        </p>
+                                    </div>
+                            </div>
+                            <div class="feedback">
+                                <img src="img/avatar.png" class="feedback-avatar" alt="">
+
+                                    <div class="feedback-content">
+                                        <p>
+                                            Fulana de tals
+                                            <span>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </span>
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quam.
+                                            Odit molestiae illum dolor architecto, asperiores quasi, magnam molestias nam, 
+                                            consequatur expedita adipisci labore dignissimos error corrupti tenetur alias odio.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <button class="btn-default">
+                            ver mais Avaliações
+                        </button>
+                </div>
+            </section>
         </main>
+
+        <footer>
+            <img src="img/wave (1).svg" alt="">
+
+            <div id="footer_items">
+                <span id="copyright">
+                    &copy 2024
+                </span>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
 
         <script src="js/script.js"></script>
 </body>
